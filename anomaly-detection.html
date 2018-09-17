@@ -71,685 +71,198 @@
             <br><br>
             <textarea id="requestTextArea" class="UIInput" style="width:580px; height:400px;">
                 {
-                    "MaxAnomalyRatio": 0.25,
-                    "Alpha": 0.05,
-                    "Sensitivity": 95,
-                    "Granularity": "monthly",
+                    "Granularity": "daily",
                     "Series": [
-                        {
-                            "Timestamp": "1962-01-01T00:00:00Z",
-                            "Value": 589
-                        },
-                        {
-                            "Timestamp": "1962-02-01T00:00:00Z",
-                            "Value": 561
-                        },
-                        {
-                            "Timestamp": "1962-03-01T00:00:00Z",
-                            "Value": 640
-                        },
-                        {
-                            "Timestamp": "1962-04-01T00:00:00Z",
-                            "Value": 656
-                        },
-                        {
-                            "Timestamp": "1962-05-01T00:00:00Z",
-                            "Value": 727
-                        },
-                        {
-                            "Timestamp": "1962-06-01T00:00:00Z",
-                            "Value": 697
-                        },
-                        {
-                            "Timestamp": "1962-07-01T00:00:00Z",
-                            "Value": 640
-                        },
-                        {
-                            "Timestamp": "1962-08-01T00:00:00Z",
-                            "Value": 599
-                        },
-                        {
-                            "Timestamp": "1962-09-01T00:00:00Z",
-                            "Value": 568
-                        },
-                        {
-                            "Timestamp": "1962-10-01T00:00:00Z",
-                            "Value": 577
-                        },
-                        {
-                            "Timestamp": "1962-11-01T00:00:00Z",
-                            "Value": 553
-                        },
-                        {
-                            "Timestamp": "1962-12-01T00:00:00Z",
-                            "Value": 582
-                        },
-                        {
-                            "Timestamp": "1963-01-01T00:00:00Z",
-                            "Value": 600
-                        },
-                        {
-                            "Timestamp": "1963-02-01T00:00:00Z",
-                            "Value": 566
-                        },
-                        {
-                            "Timestamp": "1963-03-01T00:00:00Z",
-                            "Value": 653
-                        },
-                        {
-                            "Timestamp": "1963-04-01T00:00:00Z",
-                            "Value": 673
-                        },
-                        {
-                            "Timestamp": "1963-05-01T00:00:00Z",
-                            "Value": 742
-                        },
-                        {
-                            "Timestamp": "1963-06-01T00:00:00Z",
-                            "Value": 716
-                        },
-                        {
-                            "Timestamp": "1963-07-01T00:00:00Z",
-                            "Value": 660
-                        },
-                        {
-                            "Timestamp": "1963-08-01T00:00:00Z",
-                            "Value": 617
-                        },
-                        {
-                            "Timestamp": "1963-09-01T00:00:00Z",
-                            "Value": 583
-                        },
-                        {
-                            "Timestamp": "1963-10-01T00:00:00Z",
-                            "Value": 587
-                        },
-                        {
-                            "Timestamp": "1963-11-01T00:00:00Z",
-                            "Value": 565
-                        },
-                        {
-                            "Timestamp": "1963-12-01T00:00:00Z",
-                            "Value": 598
-                        },
-                        {
-                            "Timestamp": "1964-01-01T00:00:00Z",
-                            "Value": 628
-                        },
-                        {
-                            "Timestamp": "1964-02-01T00:00:00Z",
-                            "Value": 618
-                        },
-                        {
-                            "Timestamp": "1964-03-01T00:00:00Z",
-                            "Value": 688
-                        },
-                        {
-                            "Timestamp": "1964-04-01T00:00:00Z",
-                            "Value": 705
-                        },
-                        {
-                            "Timestamp": "1964-05-01T00:00:00Z",
-                            "Value": 770
-                        },
-                        {
-                            "Timestamp": "1964-06-01T00:00:00Z",
-                            "Value": 736
-                        },
-                        {
-                            "Timestamp": "1964-07-01T00:00:00Z",
-                            "Value": 678
-                        },
-                        {
-                            "Timestamp": "1964-08-01T00:00:00Z",
-                            "Value": 639
-                        },
-                        {
-                            "Timestamp": "1964-09-01T00:00:00Z",
-                            "Value": 604
-                        },
-                        {
-                            "Timestamp": "1964-10-01T00:00:00Z",
-                            "Value": 611
-                        },
-                        {
-                            "Timestamp": "1964-11-01T00:00:00Z",
-                            "Value": 594
-                        },
-                        {
-                            "Timestamp": "1964-12-01T00:00:00Z",
-                            "Value": 634
-                        },
-                        {
-                            "Timestamp": "1965-01-01T00:00:00Z",
-                            "Value": 658
-                        },
-                        {
-                            "Timestamp": "1965-02-01T00:00:00Z",
-                            "Value": 622
-                        },
-                        {
-                            "Timestamp": "1965-03-01T00:00:00Z",
-                            "Value": 709
-                        },
-                        {
-                            "Timestamp": "1965-04-01T00:00:00Z",
-                            "Value": 722
-                        },
-                        {
-                            "Timestamp": "1965-05-01T00:00:00Z",
-                            "Value": 782
-                        },
-                        {
-                            "Timestamp": "1965-06-01T00:00:00Z",
-                            "Value": 756
-                        },
-                        {
-                            "Timestamp": "1965-07-01T00:00:00Z",
-                            "Value": 702
-                        },
-                        {
-                            "Timestamp": "1965-08-01T00:00:00Z",
-                            "Value": 653
-                        },
-                        {
-                            "Timestamp": "1965-09-01T00:00:00Z",
-                            "Value": 615
-                        },
-                        {
-                            "Timestamp": "1965-10-01T00:00:00Z",
-                            "Value": 621
-                        },
-                        {
-                            "Timestamp": "1965-11-01T00:00:00Z",
-                            "Value": 602
-                        },
-                        {
-                            "Timestamp": "1965-12-01T00:00:00Z",
-                            "Value": 635
-                        },
-                        {
-                            "Timestamp": "1966-01-01T00:00:00Z",
-                            "Value": 677
-                        },
-                        {
-                            "Timestamp": "1966-02-01T00:00:00Z",
-                            "Value": 635
-                        },
-                        {
-                            "Timestamp": "1966-03-01T00:00:00Z",
-                            "Value": 736
-                        },
-                        {
-                            "Timestamp": "1966-04-01T00:00:00Z",
-                            "Value": 755
-                        },
-                        {
-                            "Timestamp": "1966-05-01T00:00:00Z",
-                            "Value": 811
-                        },
-                        {
-                            "Timestamp": "1966-06-01T00:00:00Z",
-                            "Value": 798
-                        },
-                        {
-                            "Timestamp": "1966-07-01T00:00:00Z",
-                            "Value": 735
-                        },
-                        {
-                            "Timestamp": "1966-08-01T00:00:00Z",
-                            "Value": 697
-                        },
-                        {
-                            "Timestamp": "1966-09-01T00:00:00Z",
-                            "Value": 661
-                        },
-                        {
-                            "Timestamp": "1966-10-01T00:00:00Z",
-                            "Value": 667
-                        },
-                        {
-                            "Timestamp": "1966-11-01T00:00:00Z",
-                            "Value": 645
-                        },
-                        {
-                            "Timestamp": "1966-12-01T00:00:00Z",
-                            "Value": 688
-                        },
-                        {
-                            "Timestamp": "1967-01-01T00:00:00Z",
-                            "Value": 713
-                        },
-                        {
-                            "Timestamp": "1967-02-01T00:00:00Z",
-                            "Value": 667
-                        },
-                        {
-                            "Timestamp": "1967-03-01T00:00:00Z",
-                            "Value": 762
-                        },
-                        {
-                            "Timestamp": "1967-04-01T00:00:00Z",
-                            "Value": 784
-                        },
-                        {
-                            "Timestamp": "1967-05-01T00:00:00Z",
-                            "Value": 837
-                        },
-                        {
-                            "Timestamp": "1967-06-01T00:00:00Z",
-                            "Value": 817
-                        },
-                        {
-                            "Timestamp": "1967-07-01T00:00:00Z",
-                            "Value": 767
-                        },
-                        {
-                            "Timestamp": "1967-08-01T00:00:00Z",
-                            "Value": 722
-                        },
-                        {
-                            "Timestamp": "1967-09-01T00:00:00Z",
-                            "Value": 681
-                        },
-                        {
-                            "Timestamp": "1967-10-01T00:00:00Z",
-                            "Value": 687
-                        },
-                        {
-                            "Timestamp": "1967-11-01T00:00:00Z",
-                            "Value": 660
-                        },
-                        {
-                            "Timestamp": "1967-12-01T00:00:00Z",
-                            "Value": 698
-                        },
-                        {
-                            "Timestamp": "1968-01-01T00:00:00Z",
-                            "Value": 717
-                        },
-                        {
-                            "Timestamp": "1968-02-01T00:00:00Z",
-                            "Value": 696
-                        },
-                        {
-                            "Timestamp": "1968-03-01T00:00:00Z",
-                            "Value": 775
-                        },
-                        {
-                            "Timestamp": "1968-04-01T00:00:00Z",
-                            "Value": 796
-                        },
-                        {
-                            "Timestamp": "1968-05-01T00:00:00Z",
-                            "Value": 858
-                        },
-                        {
-                            "Timestamp": "1968-06-01T00:00:00Z",
-                            "Value": 826
-                        },
-                        {
-                            "Timestamp": "1968-07-01T00:00:00Z",
-                            "Value": 783
-                        },
-                        {
-                            "Timestamp": "1968-08-01T00:00:00Z",
-                            "Value": 740
-                        },
-                        {
-                            "Timestamp": "1968-09-01T00:00:00Z",
-                            "Value": 701
-                        },
-                        {
-                            "Timestamp": "1968-10-01T00:00:00Z",
-                            "Value": 706
-                        },
-                        {
-                            "Timestamp": "1968-11-01T00:00:00Z",
-                            "Value": 677
-                        },
-                        {
-                            "Timestamp": "1968-12-01T00:00:00Z",
-                            "Value": 711
-                        },
-                        {
-                            "Timestamp": "1969-01-01T00:00:00Z",
-                            "Value": 734
-                        },
-                        {
-                            "Timestamp": "1969-02-01T00:00:00Z",
-                            "Value": 690
-                        },
-                        {
-                            "Timestamp": "1969-03-01T00:00:00Z",
-                            "Value": 785
-                        },
-                        {
-                            "Timestamp": "1969-04-01T00:00:00Z",
-                            "Value": 805
-                        },
-                        {
-                            "Timestamp": "1969-05-01T00:00:00Z",
-                            "Value": 871
-                        },
-                        {
-                            "Timestamp": "1969-06-01T00:00:00Z",
-                            "Value": 845
-                        },
-                        {
-                            "Timestamp": "1969-07-01T00:00:00Z",
-                            "Value": 801
-                        },
-                        {
-                            "Timestamp": "1969-08-01T00:00:00Z",
-                            "Value": 764
-                        },
-                        {
-                            "Timestamp": "1969-09-01T00:00:00Z",
-                            "Value": 725
-                        },
-                        {
-                            "Timestamp": "1969-10-01T00:00:00Z",
-                            "Value": 723
-                        },
-                        {
-                            "Timestamp": "1969-11-01T00:00:00Z",
-                            "Value": 690
-                        },
-                        {
-                            "Timestamp": "1969-12-01T00:00:00Z",
-                            "Value": 734
-                        },
-                        {
-                            "Timestamp": "1970-01-01T00:00:00Z",
-                            "Value": 750
-                        },
-                        {
-                            "Timestamp": "1970-02-01T00:00:00Z",
-                            "Value": 707
-                        },
-                        {
-                            "Timestamp": "1970-03-01T00:00:00Z",
-                            "Value": 807
-                        },
-                        {
-                            "Timestamp": "1970-04-01T00:00:00Z",
-                            "Value": 824
-                        },
-                        {
-                            "Timestamp": "1970-05-01T00:00:00Z",
-                            "Value": 886
-                        },
-                        {
-                            "Timestamp": "1970-06-01T00:00:00Z",
-                            "Value": 859
-                        },
-                        {
-                            "Timestamp": "1970-07-01T00:00:00Z",
-                            "Value": 819
-                        },
-                        {
-                            "Timestamp": "1970-08-01T00:00:00Z",
-                            "Value": 783
-                        },
-                        {
-                            "Timestamp": "1970-09-01T00:00:00Z",
-                            "Value": 740
-                        },
-                        {
-                            "Timestamp": "1970-10-01T00:00:00Z",
-                            "Value": 747
-                        },
-                        {
-                            "Timestamp": "1970-11-01T00:00:00Z",
-                            "Value": 711
-                        },
-                        {
-                            "Timestamp": "1970-12-01T00:00:00Z",
-                            "Value": 751
-                        },
-                        {
-                            "Timestamp": "1971-01-01T00:00:00Z",
-                            "Value": 804
-                        },
-                        {
-                            "Timestamp": "1971-02-01T00:00:00Z",
-                            "Value": 756
-                        },
-                        {
-                            "Timestamp": "1971-03-01T00:00:00Z",
-                            "Value": 860
-                        },
-                        {
-                            "Timestamp": "1971-04-01T00:00:00Z",
-                            "Value": 878
-                        },
-                        {
-                            "Timestamp": "1971-05-01T00:00:00Z",
-                            "Value": 942
-                        },
-                        {
-                            "Timestamp": "1971-06-01T00:00:00Z",
-                            "Value": 913
-                        },
-                        {
-                            "Timestamp": "1971-07-01T00:00:00Z",
-                            "Value": 869
-                        },
-                        {
-                            "Timestamp": "1971-08-01T00:00:00Z",
-                            "Value": 834
-                        },
-                        {
-                            "Timestamp": "1971-09-01T00:00:00Z",
-                            "Value": 790
-                        },
-                        {
-                            "Timestamp": "1971-10-01T00:00:00Z",
-                            "Value": 800
-                        },
-                        {
-                            "Timestamp": "1971-11-01T00:00:00Z",
-                            "Value": 763
-                        },
-                        {
-                            "Timestamp": "1971-12-01T00:00:00Z",
-                            "Value": 800
-                        },
-                        {
-                            "Timestamp": "1972-01-01T00:00:00Z",
-                            "Value": 826
-                        },
-                        {
-                            "Timestamp": "1972-02-01T00:00:00Z",
-                            "Value": 799
-                        },
-                        {
-                            "Timestamp": "1972-03-01T00:00:00Z",
-                            "Value": 890
-                        },
-                        {
-                            "Timestamp": "1972-04-01T00:00:00Z",
-                            "Value": 900
-                        },
-                        {
-                            "Timestamp": "1972-05-01T00:00:00Z",
-                            "Value": 961
-                        },
-                        {
-                            "Timestamp": "1972-06-01T00:00:00Z",
-                            "Value": 935
-                        },
-                        {
-                            "Timestamp": "1972-07-01T00:00:00Z",
-                            "Value": 894
-                        },
-                        {
-                            "Timestamp": "1972-08-01T00:00:00Z",
-                            "Value": 855
-                        },
-                        {
-                            "Timestamp": "1972-09-01T00:00:00Z",
-                            "Value": 809
-                        },
-                        {
-                            "Timestamp": "1972-10-01T00:00:00Z",
-                            "Value": 810
-                        },
-                        {
-                            "Timestamp": "1972-11-01T00:00:00Z",
-                            "Value": 766
-                        },
-                        {
-                            "Timestamp": "1972-12-01T00:00:00Z",
-                            "Value": 805
-                        },
-                        {
-                            "Timestamp": "1973-01-01T00:00:00Z",
-                            "Value": 821
-                        },
-                        {
-                            "Timestamp": "1973-02-01T00:00:00Z",
-                            "Value": 773
-                        },
-                        {
-                            "Timestamp": "1973-03-01T00:00:00Z",
-                            "Value": 883
-                        },
-                        {
-                            "Timestamp": "1973-04-01T00:00:00Z",
-                            "Value": 898
-                        },
-                        {
-                            "Timestamp": "1973-05-01T00:00:00Z",
-                            "Value": 957
-                        },
-                        {
-                            "Timestamp": "1973-06-01T00:00:00Z",
-                            "Value": 924
-                        },
-                        {
-                            "Timestamp": "1973-07-01T00:00:00Z",
-                            "Value": 881
-                        },
-                        {
-                            "Timestamp": "1973-08-01T00:00:00Z",
-                            "Value": 837
-                        },
-                        {
-                            "Timestamp": "1973-09-01T00:00:00Z",
-                            "Value": 784
-                        },
-                        {
-                            "Timestamp": "1973-10-01T00:00:00Z",
-                            "Value": 791
-                        },
-                        {
-                            "Timestamp": "1973-11-01T00:00:00Z",
-                            "Value": 760
-                        },
-                        {
-                            "Timestamp": "1973-12-01T00:00:00Z",
-                            "Value": 802
-                        },
-                        {
-                            "Timestamp": "1974-01-01T00:00:00Z",
-                            "Value": 828
-                        },
-                        {
-                            "Timestamp": "1974-02-01T00:00:00Z",
-                            "Value": 1030
-                        },
-                        {
-                            "Timestamp": "1974-03-01T00:00:00Z",
-                            "Value": 889
-                        },
-                        {
-                            "Timestamp": "1974-04-01T00:00:00Z",
-                            "Value": 902
-                        },
-                        {
-                            "Timestamp": "1974-05-01T00:00:00Z",
-                            "Value": 969
-                        },
-                        {
-                            "Timestamp": "1974-06-01T00:00:00Z",
-                            "Value": 947
-                        },
-                        {
-                            "Timestamp": "1974-07-01T00:00:00Z",
-                            "Value": 908
-                        },
-                        {
-                            "Timestamp": "1974-08-01T00:00:00Z",
-                            "Value": 867
-                        },
-                        {
-                            "Timestamp": "1974-09-01T00:00:00Z",
-                            "Value": 815
-                        },
-                        {
-                            "Timestamp": "1974-10-01T00:00:00Z",
-                            "Value": 812
-                        },
-                        {
-                            "Timestamp": "1974-11-01T00:00:00Z",
-                            "Value": 773
-                        },
-                        {
-                            "Timestamp": "1974-12-01T00:00:00Z",
-                            "Value": 813
-                        },
-                        {
-                            "Timestamp": "1975-01-01T00:00:00Z",
-                            "Value": 834
-                        },
-                        {
-                            "Timestamp": "1975-02-01T00:00:00Z",
-                            "Value": 782
-                        },
-                        {
-                            "Timestamp": "1975-03-01T00:00:00Z",
-                            "Value": 892
-                        },
-                        {
-                            "Timestamp": "1975-04-01T00:00:00Z",
-                            "Value": 903
-                        },
-                        {
-                            "Timestamp": "1975-05-01T00:00:00Z",
-                            "Value": 966
-                        },
-                        {
-                            "Timestamp": "1975-06-01T00:00:00Z",
-                            "Value": 937
-                        },
-                        {
-                            "Timestamp": "1975-07-01T00:00:00Z",
-                            "Value": 896
-                        },
-                        {
-                            "Timestamp": "1975-08-01T00:00:00Z",
-                            "Value": 858
-                        },
-                        {
-                            "Timestamp": "1975-09-01T00:00:00Z",
-                            "Value": 817
-                        },
-                        {
-                            "Timestamp": "1975-10-01T00:00:00Z",
-                            "Value": 827
-                        },
-                        {
-                            "Timestamp": "1975-11-01T00:00:00Z",
-                            "Value": 797
-                        },
-                        {
-                            "Timestamp": "1975-12-01T00:00:00Z",
-                            "Value": 843
-                        }
+                      {
+                        "Timestamp": "2018-03-01T00:00:00Z",
+                        "Value": 32858923
+                      },
+                      {
+                        "Timestamp": "2018-03-02T00:00:00Z",
+                        "Value": 29615278
+                      },
+                      {
+                        "Timestamp": "2018-03-03T00:00:00Z",
+                        "Value": 22839355
+                      },
+                      {
+                        "Timestamp": "2018-03-04T00:00:00Z",
+                        "Value": 25948736
+                      },
+                      {
+                        "Timestamp": "2018-03-05T00:00:00Z",
+                        "Value": 34139159
+                      },
+                      {
+                        "Timestamp": "2018-03-06T00:00:00Z",
+                        "Value": 33843985
+                      },
+                      {
+                        "Timestamp": "2018-03-07T00:00:00Z",
+                        "Value": 33637661
+                      },
+                      {
+                        "Timestamp": "2018-03-08T00:00:00Z",
+                        "Value": 32627350
+                      },
+                      {
+                        "Timestamp": "2018-03-09T00:00:00Z",
+                        "Value": 29881076
+                      },
+                      {
+                        "Timestamp": "2018-03-10T00:00:00Z",
+                        "Value": 22681575
+                      },
+                      {
+                        "Timestamp": "2018-03-11T00:00:00Z",
+                        "Value": 24629393
+                      },
+                      {
+                        "Timestamp": "2018-03-12T00:00:00Z",
+                        "Value": 34010679
+                      },
+                      {
+                        "Timestamp": "2018-03-13T00:00:00Z",
+                        "Value": 33893888
+                      },
+                      {
+                        "Timestamp": "2018-03-14T00:00:00Z",
+                        "Value": 33760076
+                      },
+                      {
+                        "Timestamp": "2018-03-15T00:00:00Z",
+                        "Value": 33093515
+                      },
+                      {
+                        "Timestamp": "2018-03-16T00:00:00Z",
+                        "Value": 29945555
+                      },
+                      {
+                        "Timestamp": "2018-03-17T00:00:00Z",
+                        "Value": 22676212
+                      },
+                      {
+                        "Timestamp": "2018-03-18T00:00:00Z",
+                        "Value": 25262514
+                      },
+                      {
+                        "Timestamp": "2018-03-19T00:00:00Z",
+                        "Value": 33631649
+                      },
+                      {
+                        "Timestamp": "2018-03-20T00:00:00Z",
+                        "Value": 34468310
+                      },
+                      {
+                        "Timestamp": "2018-03-21T00:00:00Z",
+                        "Value": 34212281
+                      },
+                      {
+                        "Timestamp": "2018-03-22T00:00:00Z",
+                        "Value": 38144434
+                      },
+                      {
+                        "Timestamp": "2018-03-23T00:00:00Z",
+                        "Value": 34662949
+                      },
+                      {
+                        "Timestamp": "2018-03-24T00:00:00Z",
+                        "Value": 24623684
+                      },
+                      {
+                        "Timestamp": "2018-03-25T00:00:00Z",
+                        "Value": 26530491
+                      },
+                      {
+                        "Timestamp": "2018-03-26T00:00:00Z",
+                        "Value": 35445003
+                      },
+                      {
+                        "Timestamp": "2018-03-27T00:00:00Z",
+                        "Value": 34250789
+                      },
+                      {
+                        "Timestamp": "2018-03-28T00:00:00Z",
+                        "Value": 33423012
+                      },
+                      {
+                        "Timestamp": "2018-03-29T00:00:00Z",
+                        "Value": 30744783
+                      },
+                      {
+                        "Timestamp": "2018-03-30T00:00:00Z",
+                        "Value": 25825128
+                      },
+                      {
+                        "Timestamp": "2018-03-31T00:00:00Z",
+                        "Value": 21244209
+                      },
+                      {
+                        "Timestamp": "2018-04-01T00:00:00Z",
+                        "Value": 22576956
+                      },
+                      {
+                        "Timestamp": "2018-04-02T00:00:00Z",
+                        "Value": 31957221
+                      },
+                      {
+                        "Timestamp": "2018-04-03T00:00:00Z",
+                        "Value": 33841228
+                      },
+                      {
+                        "Timestamp": "2018-04-04T00:00:00Z",
+                        "Value": 33554483
+                      },
+                      {
+                        "Timestamp": "2018-04-05T00:00:00Z",
+                        "Value": 32383350
+                      },
+                      {
+                        "Timestamp": "2018-04-06T00:00:00Z",
+                        "Value": 29494850
+                      },
+                      {
+                        "Timestamp": "2018-04-07T00:00:00Z",
+                        "Value": 22815534
+                      },
+                      {
+                        "Timestamp": "2018-04-08T00:00:00Z",
+                        "Value": 25557267
+                      },
+                      {
+                        "Timestamp": "2018-04-09T00:00:00Z",
+                        "Value": 34858252
+                      },
+                      {
+                        "Timestamp": "2018-04-10T00:00:00Z",
+                        "Value": 34750597
+                      },
+                      {
+                        "Timestamp": "2018-04-11T00:00:00Z",
+                        "Value": 34717956
+                      },
+                      {
+                        "Timestamp": "2018-04-12T00:00:00Z",
+                        "Value": 34132534
+                      },
+                      {
+                        "Timestamp": "2018-04-13T00:00:00Z",
+                        "Value": 30762236
+                      },
+                      {
+                        "Timestamp": "2018-04-14T00:00:00Z",
+                        "Value": 22504059
+                      },
+                      {
+                        "Timestamp": "2018-04-15T00:00:00Z",
+                        "Value": 26149060
+                      },
+                      {
+                        "Timestamp": "2018-04-16T00:00:00Z",
+                        "Value": 35250105
+                      }
                     ]
-                }
+                  }
 		    </textarea>
         </div>
         <div id="jsonOutput" style="width:600px; display:table-cell;">
