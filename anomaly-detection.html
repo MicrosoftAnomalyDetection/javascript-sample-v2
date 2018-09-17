@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Anomaly Detection Javascript Quick Starts</title>
+    <title>Anomaly Finder Javascript Sample</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 </head>
 <body>
@@ -12,8 +12,8 @@
         // Replace the subscriptionKey string value with your valid subscription key.
         var subscriptionKey = "[YOUR_SUBSCRIPTION_KEY]";
         // Replace the endpoint string value with your endpoint.
-        var lastPointAPI    = "https://[REPLACE_WITH_ENDPOINT]/anomalyfinder/v2.0/timeseries/last/detect";
-        var entirePointsAPI = "https://[REPLACE_WITH_ENDPOINT]/anomalyfinder/v2.0/timeseries/entire/detect";
+        var lastPointAPI    = "https://westus2.api.cognitive.microsoft.com/anomalyfinder/v2.0/timeseries/last/detect";
+        var entirePointsAPI = "https://westus2.api.cognitive.microsoft.com/anomalyfinder/v2.0/timeseries/entire/detect";
 
         function detectForEntirePoints() {
             var body = document.getElementById("requestTextArea").value;
@@ -59,11 +59,11 @@
         };
     </script>
 
-    <h1>Anomaly Detection Javascript Quick Starts:</h1>
-    Enter the detection data, then click the <strong>Anomaly Detection</strong> button.
+    <h1>Anomaly Finder Javascript Sample:</h1>
+    Enter the request data, then click the <strong>Anomaly Finder</strong> button.
 
-    <button onclick="detectForLastPoint()">Anomaly Detection For Last Point</button>
-    <button onclick="detectForEntirePoints()">Anomaly Detection For Entire Points</button>
+    <button onclick="detectForLastPoint()">Anomaly Finder For Last Point</button>
+    <button onclick="detectForEntirePoints()">Anomaly Finder For Entire Points</button>
     <br><br>
     <div id="wrapper" style="width:1020px; display:table;">
         <div id="imageDiv" style="width:420px; display:table-cell;">
